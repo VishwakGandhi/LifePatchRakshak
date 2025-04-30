@@ -1,0 +1,135 @@
+.logo-fixed-height {
+    height: 80px; /* Adjust this height as needed */
+    object-fit: contain;
+}
+
+.fixed-height-img {
+    height: 200px; /* Set the height you want for the images */
+    width: 100%; /* Ensure it scales to fit the card width */
+    object-fit: cover; /* Ensures the image covers the container with the set height */
+}
+
+.fixed-width-img {
+    height: 100%; /* Set the height you want for the images */
+    width: 175px; /* Ensure it scales to fit the card width */
+    object-fit: cover; /* Ensures the image covers the container with the set height */
+}
+
+.section-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    color: #2a2a2a;
+}
+
+.section-subtitle {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+.feature-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.card-icon {
+    margin-bottom: 20px;
+}
+
+.card-icon img {
+    width: 60px;
+    height: 60px;
+}
+
+.feature-card h4 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.feature-card p {
+    font-size: 1rem;
+    color: #6c757d;
+    line-height: 1.5;
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+}
+
+.benefit-row {
+    margin-bottom: 2rem;
+}
+
+.benefit-row img {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.benefit-row h4 {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: #333;
+}
+
+.benefit-row p {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+.who-can-benefit {
+    padding: 2rem 0; /* Adjusts spacing for the section */
+    background-color: #f7f7f7; /* Neutral background color */
+}
+
+.who-can-benefit .section-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.who-can-benefit .section-subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    color: #666;
+}
+
+.benefit-row {
+    margin-bottom: 1rem; /* Reduce row spacing */
+}
+
+.benefit-row h4 {
+    margin-bottom: 0.5rem; /* Reduce spacing below headings */
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #444;
+}
+
+.benefit-row p {
+    margin-bottom: 0rem; /* Reduce spacing below paragraphs */
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+.benefit-row {
+    margin-bottom: 0rem; /* Reduced spacing between rows */
+}
+
+.benefit-row > .col-md-6 {
+    margin-bottom: 0; /* Reset internal column margins, if any */
+}
+
+.text-md-end {
+    text-align: right; /* Right-align text for alternating rows */
+}
